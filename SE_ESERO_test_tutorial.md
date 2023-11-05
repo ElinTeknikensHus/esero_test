@@ -5,11 +5,11 @@
   <img src="https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true" alt="ClickTip" width="300"/>
 </div>
 
-## Räkna-variablen
+## Räknevariablen
 Skapa en variabel, till att räkna antal skakningar/steg med. Kalla den `||variables:antalSkak||`. 
 
-## Sæt tælle-variablen
-* Find blokken `||variables: ændr||` og træk den ind i  `||input.på ryst||`    
+## Sätt räknevariablen
+* Hitta blocken `||variables: ændr||` og træk den ind i  `||input.när skaka||`    
 
 ```blocks
 input.onGesture(Gesture.Shake, function () {
