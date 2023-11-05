@@ -1,12 +1,12 @@
 # SE_ESERO_test_tutorial
-## Multi-tælleren @unplugged
+## Multi-räknaren @unplugged
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/ESERODanmark/multicounter/blob/master/multicounter_01.png?raw=true" alt="DampVibrations" width="300"/>
   <img src="https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true" alt="ClickTip" width="300"/>
 </div>
 
-## Tælle-variablen
-Opret en variabel, til at tælle antal ryst skridt med. Kald den `||variables:antalRyst||`. 
+## Räkna-variablen
+Skapa en variabel, till att räkna antal skakningar/steg med. Kalla den `||variables:antalSkak||`. 
 
 ## Sæt tælle-variablen
 * Find blokken `||variables: ændr||` og træk den ind i  `||input.på ryst||`    
