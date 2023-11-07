@@ -9,24 +9,24 @@
 Skapa en variabel, till att räkna antal skakningar/steg med. Kalla den `||variables:antalSkak||`. 
 
 ## Sätt räknevariablen
-* Hitta blocken `||variables: ændr||` og træk den ind i  `||input.när skaka||`    
+* Hitta blocket `||variables: ändra ... med 1||` och dra in den i  `||input.när skaka||`    
 
 ```blocks
 input.onGesture(Gesture.Shake, function () {
-    antalRyst += 1
+    antalSkak += 1
 })
 ```
 
-## Nulstil multitælleren
-* Find blokken `||input:når der trykkes på knap A||`. 
+## Nollställ multiräknaren
+* Hitta blocket `||input:när knapp A trycks||`. 
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Nulstil multitælleren
-* Find blokken `||variables: sæt||` og sæt den ind i `||input:når der trykkes på knap A||`
+## Nollställ multiräknaren
+* Hitta blocket `||variables: sätt ... till ...||` och sätt in den i `||input:när knapp A trycks||`
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
