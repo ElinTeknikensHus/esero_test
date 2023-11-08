@@ -18,7 +18,7 @@ input.onGesture(Gesture.Shake, function () {
 ```
 
 ## Nollställ multiräknaren
-* Hitta blocket `||input:när knapp A trycks||`. 
+* Hitta blocket `||input:när knapp A trycks||` och dra in det till arbetsytan. 
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -81,16 +81,16 @@ loops.everyInterval(1000, function () {
 })
 ```
 
-## Vis antal ryst
-* Sæt variablen `||variables:antalRyst||` ind i `||basic.vis nummer||`
+## visa antal skakningar
+* Sätt in variabeln `||variables:antalSkakningar||` i `||basic.visa siffra||`
 ```blocks
 loops.everyInterval(1000, function () {
-    basic.showNumber(antalRyst)
+    basic.showNumber(antalSkakningar)
 })
 ```
 
-## Koden er nu klar til brug!
-* Tryk på knappen "Færdig" og fortsæt med opgaverne i elevhæftet
+## Koden är nu färdig att användas!
+* Tryk på knappen "Klar" och prova sedan din multiräknare.
 
 
 ```template
