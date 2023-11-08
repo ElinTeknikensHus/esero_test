@@ -34,28 +34,28 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Nulstil multitælleren
-* Find blokken `||basic.vis nummer||`. Sæt den ind i `||input:når der trykkes på knap A||` under `||variables: sæt||`
+## Nollställ multiräknaren
+* Hitta blocket `||basic.visa siffra||`. Dra in den i `||input:när knapp A trycks||` nedanför `||variables: sätt...||`
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    antalRyst = 0
+    antalSkakningar = 0
     basic.showNumber()
 })
 ```
 
-## Nulstil multitælleren
-* Indsæt variablen `||variables:antalRyst||` i `||basic.vis nummer||`
+## Nollställ multiräknaren
+* Sätt in variabeln `||variables:antalSkakningar||` i `||basic.visa siffra||`
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    antalRyst = 0
-    basic.showNumber(antalRyst)
+    antalSkakningar = 0
+    basic.showNumber(antalSkakningar)
 })
 ```
 
-## Vis antal ryst
-* Indsæt blokken  `||loops:every||`
+## visa antal skakningar
+* Dra in blocket  `||loops:every||`
 
 ```blocks
 loops.everyInterval(500, function () {
@@ -63,8 +63,8 @@ loops.everyInterval(500, function () {
 })
 ```
 
-## Vis antal ryst
-* Indstil `||loops:every||` til 1 sekund (1000 ms)
+## visa antal skakningar
+* Ställ in `||loops:every||` till 1 sekund (1000 ms)
 
 ```blocks
 loops.everyInterval(1000, function () {
@@ -72,8 +72,8 @@ loops.everyInterval(1000, function () {
 })
 ```
 
-## Vis antal ryst
-* Indsæt  `||basic.vis nummer||` i `||loops:every||` 
+## visa antal skakningar
+* Sätt in  `||basic.visa siffra||` i `||loops:every||` 
 
 ```blocks
 loops.everyInterval(1000, function () {
