@@ -1,8 +1,8 @@
 # SE_ESERO_test_tutorial
 ## Multi-räknaren @unplugged
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/ESERODanmark/multicounter/blob/master/multicounter_01.png?raw=true" alt="DampVibrations" width="300"/>
-  <img src="https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true" alt="ClickTip" width="300"/>
+  <img src="https://github.com/ElinTeknikensHus/esero_test/blob/master/logotyp%20esero-sweden_svart.png?raw=true" alt="DampVibrations" width="300"/>
+  <img src="https://github.com/ElinTeknikensHus/esero_test/blob/master/TH-logo-liggande-svart%403x.png?raw=true" alt="DampVibrations" width="300"/>
 </div>
 
 ## Räknevariablen
